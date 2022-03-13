@@ -17,5 +17,3 @@ export function validBraces(braces: string): boolean {
 
   return stck.length ? false : true;
 }
-
-console.log(validBraces("({})"))
